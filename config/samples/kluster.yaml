@@ -1,0 +1,8 @@
+apiVersion: pulok.dev/v1alpha1
+kind: Kluster
+metadata:
+  name: kluster-sample
+spec:
+  replicas: 5
+  image: puloksaha/bookapi:latest
+  port: 9090
